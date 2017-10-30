@@ -2,7 +2,10 @@ body{
 
 }
 
-
+.bg {
+  background-image: url(../images/frescosecha_landing-09.png);
+  height: 550px;
+}
 
 
 @media (max-width: 1550px) {
