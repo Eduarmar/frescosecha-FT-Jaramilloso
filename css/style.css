@@ -7,6 +7,20 @@ body{
   height: 550px;
 }
 
+.header {
+  height: 550px;
+  width: 1200px;
+  background-image: url(../images/frescosecha_landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#aweber p{
+  font-size: 20px;
+  font-weight: bold;
+}
 
 @media (max-width: 1550px) {
 
