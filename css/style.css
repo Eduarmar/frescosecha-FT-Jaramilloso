@@ -12,12 +12,21 @@ body{
   padding-left: 0px;
 }
 
+#header .row{
+  margin-bottom: -6px;
+}
+
 .tipa{
   margin-top: -20%;
 }
 
 #aweber {
-  background-image: url(../images/fondo header.png);
+  background-image: url(../images/fondo.png);
+
+}
+
+.awebo{
+  background-color: red;
 }
 
 /*Eduardo css*/
@@ -74,3 +83,47 @@ td{
 }
 
 @media (max-width: 300px) {}
+
+
+  #af-form-511189785 .af-body .af-textWrap{width:98%;display:block;float:none;}
+  #af-form-511189785 .af-body a{color:#CCCCCC;text-decoration:underline;font-style:normal;font-weight:normal;}
+  #af-form-511189785 .af-body input.text, #af-form-511189785 .af-body textarea{background-color:#FFFFFF;border-color:#D9D9D9;border-width:1px;border-style:solid;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Trebuchet MS, sans-serif;}
+  #af-form-511189785 .af-body input.text:focus, #af-form-511189785 .af-body textarea:focus{background-color:#FFFAD6;border-color:#030303;border-width:1px;border-style:solid;}
+  #af-form-511189785 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
+  #af-form-511189785 .af-body{padding-bottom:15px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:#CCCCCC;font-size:11px;font-family:Verdana, sans-serif;}
+  #af-form-511189785 .af-header{padding-bottom:9px;padding-top:9px;padding-right:10px;padding-left:10px;background-color:#transparent;border-width:1px;border-bottom-style:none;border-left-style:none;border-right-style:none;border-top-style:none;color:#CCCCCC;font-size:16px;font-family:Verdana, sans-serif;}
+  #af-form-511189785 .af-quirksMode .bodyText{padding-top:2px;padding-bottom:2px;}
+  #af-form-511189785 .af-quirksMode{padding-right:16px;padding-left:16px;}
+  #af-form-511189785 .af-standards .af-element{padding-right:16px;padding-left:16px;}
+  #af-form-511189785 .bodyText p{margin:1em 0;}
+  #af-form-511189785 .buttonContainer input.submit{background-image:url("https://forms.aweber.com/images/auto/gradient/button/07c.png");background-position:top left;background-repeat:repeat-x;background-color:#0057ac;border:1px solid #0057ac;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
+  #af-form-511189785 .buttonContainer input.submit{width:auto;}
+  #af-form-511189785 .buttonContainer{text-align:center;}
+  #af-form-511189785 body,#af-form-511189785 dl,#af-form-511189785 dt,#af-form-511189785 dd,#af-form-511189785 h1,#af-form-511189785 h2,#af-form-511189785 h3,#af-form-511189785 h4,#af-form-511189785 h5,#af-form-511189785 h6,#af-form-511189785 pre,#af-form-511189785 code,#af-form-511189785 fieldset,#af-form-511189785 legend,#af-form-511189785 blockquote,#af-form-511189785 th,#af-form-511189785 td{float:none;color:inherit;position:static;margin:0;padding:0;}
+  #af-form-511189785 button,#af-form-511189785 input,#af-form-511189785 submit,#af-form-511189785 textarea,#af-form-511189785 select,#af-form-511189785 label,#af-form-511189785 optgroup,#af-form-511189785 option{float:none;position:static;margin:0;}
+  #af-form-511189785 div{margin:0;}
+  #af-form-511189785 fieldset{border:0;}
+  #af-form-511189785 form,#af-form-511189785 textarea,.af-form-wrapper,.af-form-close-button,#af-form-511189785 img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}
+  #af-form-511189785 input,#af-form-511189785 button,#af-form-511189785 textarea,#af-form-511189785 select{font-size:100%;}
+  #af-form-511189785 p{color:inherit;}
+  #af-form-511189785 select,#af-form-511189785 label,#af-form-511189785 optgroup,#af-form-511189785 option{padding:0;}
+  #af-form-511189785 table{border-collapse:collapse;border-spacing:0;}
+  #af-form-511189785 ul,#af-form-511189785 ol{list-style-image:none;list-style-position:outside;list-style-type:disc;padding-left:40px;}
+  #af-form-511189785,#af-form-511189785 .quirksMode{width:100%;max-width:382px;}
+  #af-form-511189785.af-quirksMode{overflow-x:hidden;}
+  #af-form-511189785{background-color:transparent;border-color:#CFCFCF;border-width:1px;border-style:none;}
+  #af-form-511189785{display:block;}
+  #af-form-511189785{overflow:hidden;}
+  .af-body .af-textWrap{text-align:left;}
+  .af-body input.image{border:none!important;}
+  .af-body input.submit,.af-body input.image,.af-form .af-element input.button{float:none!important;}
+  .af-body input.text{width:100%;float:none;padding:2px!important;}
+  .af-body.af-standards input.submit{padding:4px 12px;}
+  .af-clear{clear:both;}
+  .af-element label{text-align:left;display:block;float:left;}
+  .af-element{padding-bottom:5px;padding-top:5px;}
+  .af-form-wrapper{text-indent:0;}
+  .af-form{text-align:left;margin:auto;}
+  .af-header{margin-bottom:0;margin-top:0;padding:10px;}
+  .af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}
+  .lbl-right .af-element label{text-align:right;}
