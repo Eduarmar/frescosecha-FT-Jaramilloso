@@ -7,8 +7,13 @@ body{
 
 }
 
-table{
+table, li{
   font-family: HastaGrotest;
+}
+
+td{
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .bg {
