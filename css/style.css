@@ -5,7 +5,7 @@ body{
 /*Eduardo css*/
 
 .logo{
-
+  margin-left: 50px;
 }
 
 #header > div:nth-child(2) > div.col.xl4.frutas{
@@ -13,9 +13,12 @@ body{
 }
 
 .tipa{
-  margin-top: -120px;
+  margin-top: -20%;
 }
 
+#aweber {
+  background-image: url(../images/fondo header.png);
+}
 
 /*Eduardo css*/
 
