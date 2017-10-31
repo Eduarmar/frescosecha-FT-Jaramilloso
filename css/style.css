@@ -8,7 +8,20 @@ body{
   margin-left: 50px;
 }
 
-<<<<<<< HEAD
+#header > div:nth-child(2) > div.col.xl4.frutas{
+  padding-left: 0px;
+}
+
+.tipa{
+  margin-top: -20%;
+}
+
+#aweber {
+  background-image: url(../images/fondo header.png);
+}
+
+/*Eduardo css*/
+
 table, li{
   font-family: HastaGrotest;
 }
@@ -21,23 +34,6 @@ td{
 .bg {
   background-image: url(../images/frescosecha_landing-09.png);
   height: 550px;
-=======
-#header > div:nth-child(2) > div.col.xl4.frutas{
-  padding-left: 0px;
-}
-
-.tipa{
-  margin-top: -20%;
->>>>>>> 67bb0821900552c9602cc4305f7434c6bf9e2398
-}
-
-#aweber {
-  background-image: url(../images/fondo header.png);
-}
-
-/*Eduardo css*/
-
-
 
 
 #aweber p{
