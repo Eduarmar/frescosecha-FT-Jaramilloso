@@ -1,5 +1,13 @@
+@font-face {
+    font-family:"HastaGrotest";
+    src: url("../hasta grotesk.ttf") /* TTF file for CSS3 browsers */
+}
+
 body{
 
+}
+
+h1{
 }
 
 .bg {
