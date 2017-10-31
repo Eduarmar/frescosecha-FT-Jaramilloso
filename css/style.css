@@ -1,3 +1,10 @@
+@font-face {
+
+      font-family:"HastaGrotesk";
+      src: url("../hasta grotesk.ttf") /* TTF file for CSS3 browsers */
+
+}
+
 body{
 
 }
@@ -32,8 +39,10 @@ body{
 /*Eduardo css*/
 
 table, li{
-  font-family: HastaGrotest;
+  font-family: HastaGrotesk;
 }
+
+
 
 td{
   padding-top: 2px;
