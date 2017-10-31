@@ -1,28 +1,23 @@
-@font-face {
-    font-family:"HastaGrotest";
-    src: url("../hasta grotesk.ttf") /* TTF file for CSS3 browsers */
-}
-
 body{
 
 }
 
-<<<<<<< HEAD
+/*Eduardo css*/
+
+.logo{
+
+}
+
 #header > div:nth-child(2) > div.col.xl4.frutas{
   padding-left: 0px;
-=======
-table{
-  font-family: HastaGrotest;
 }
 
-.bg {
-  background-image: url(../images/frescosecha_landing-09.png);
-  height: 550px;
+.tipa{
+  margin-top: -120px;
 }
->>>>>>> a82c22a79e7298512fefa8c3c434d86418aaecc9
 
-  vertical-align: bottom;
-}
+
+/*Eduardo css*/
 
 
 
