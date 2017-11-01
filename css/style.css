@@ -40,6 +40,13 @@ body{
   background-color: red;
 }
 
+#aweber > div > div > div{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
 /*Eduardo css*/
 
 table, li{
