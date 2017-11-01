@@ -130,7 +130,9 @@
                       <option class="multiChoice" value="FrescoPack 2">FrescoPack 2 - $274.502</option>
                       <option class="multiChoice" value="FrescoPack 3">FrescoPack 3 - $530.258</option>
                       </select>
-                    </div><input type="hidden" name="meta_preselected_awf_field-93980048" value="" />
+                    </div>
+
+                    <input type="hidden" name="meta_preselected_awf_field-93980048" value="" />
                     <div class="af-clear"></div>
                   </div>
                   <div class="af-element buttonContainer">
@@ -1110,7 +1112,13 @@
   </section>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('select').material_select();
+    });
+  </script>
   <script type="text/javascript">
     // Special handling for facebook iOS since it cannot open new windows
     (function() {
