@@ -88,7 +88,7 @@ td{
 .container {
     width: 95% !important;
 }
-
+}
 
 @media (max-width: 1550px) {
 
@@ -98,20 +98,30 @@ td{
 
 }
 
-@media (max-width: 1350px) {
-
-}
 
 @media (max-width: 1200px) {
 
 }
 
 @media (max-width: 992px) {
+  .cabeza h4{
+    font-size: 25px;
+  }
 
+  .cabeza h1{
+    font-size: 55px;
+  }
 }
 
-@media (max-width: 600px) {
 
+@media (max-width: 600px) {
+  .cabeza h4{
+    font-size: 20px;
+  }
+
+  .cabeza h1{
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 500px) {
