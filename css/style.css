@@ -57,8 +57,12 @@ td{
 .bg {
   background-image: url(../images/frescosecha_landing-09.png);
   height: 550px;
+}
 
-
+.pedido{
+  font-size: 28px !important;
+  margin-top: 50px;
+}
 
 #aweber p{
   font-size: 20px;
