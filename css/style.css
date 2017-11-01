@@ -46,6 +46,13 @@ table, li{
 .grande {
 padding-top: 30px!important;
 padding-bottom: 30px !important;
+padding-left: 40px !important;
+padding-right: 40px !important;
+}
+
+#frecopack3 .grande{
+  padding-top: 50px!important;
+  padding-bottom: 50px !important;
 }
 
 
