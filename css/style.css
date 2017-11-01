@@ -62,7 +62,8 @@ td{
 }
 
 .bg {
-  background-image: url(../images/frescosecha_landing-09.png);
+  background-image: url(../images/fondo.png);
+  background-size: cover;
   height: 550px;
 }
 
