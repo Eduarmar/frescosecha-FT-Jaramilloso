@@ -154,7 +154,7 @@
 
         <div class="col l10 white right grande">
 
-          <table>
+          <table class="">
         <tbody>
           <tr>
             <td>Aguacate</td>
@@ -274,7 +274,7 @@
       </div>
 
       <div class="col l10 white left grande">
-        <table>
+        <table class="">
       <tbody>
         <tr>
           <td>Banano</td>
@@ -403,7 +403,7 @@
       </div>
 
       <div class="col l9 white right grande">
-        <table>
+        <table class="">
       <tbody>
         <tr>
           <td>Aguacate</td>
@@ -562,7 +562,24 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
+  <script>
+  $(function() {
+    // Smooth Scrolling
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
 
+  </script>
 </body>
 
 </html>
