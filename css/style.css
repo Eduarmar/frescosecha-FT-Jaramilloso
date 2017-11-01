@@ -40,8 +40,13 @@ body{
 
 table, li{
   font-family: HastaGrotesk;
+  font-weight: bolder;
 }
 
+.grande {
+padding-top: 30px!important;
+padding-bottom: 30px !important;
+}
 
 
 td{
@@ -52,6 +57,7 @@ td{
 .bg {
   background-image: url(../images/frescosecha_landing-09.png);
   height: 550px;
+
 
 
 #aweber p{
