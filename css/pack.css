@@ -5,54 +5,12 @@
 
 }
 
-body{
 
-}
-
-/*Eduardo css*/
-
-.logo{
-  margin-left: 50px;
-}
-
-#header > div:nth-child(2) > div.col.xl4.frutas{
-  padding-left: 0px;
-}
-
-#header .container{
-  width: 100%;
-}
-
-#header .row{
-  margin-bottom: -6px;
-}
-
-.tipa{
-  margin-top: -20%;
-}
-
-#aweber {
+.bg {
   background-image: url(../images/fondo.png);
-
+  background-size: cover;
 }
 
-.awebo{
-  background-color: red;
-}
-
-#aweber > div > div > div{
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-/*Eduardo css*/
-
-table, li{
-  font-family: HastaGrotesk;
-  font-weight: bolder;
-}
 
 .grande {
 padding-top: 30px!important;
@@ -61,13 +19,8 @@ padding-left: 40px !important;
 padding-right: 40px !important;
 }
 
-#frecopack3 .grande{
-  padding-top: 50px!important;
-  padding-bottom: 50px !important;
-}
-
-#aweber > div > div > div{
-  margin-bottom: 0;
+.pequeno{
+  padding: 40px 0;
 }
 
 td{
@@ -75,42 +28,21 @@ td{
   padding-bottom: 2px;
 }
 
-.bg {
-  background-image: url(../images/fondo.png);
-  background-size: cover;
-  height: 550px;
-}
-
-.pedido{
-  font-size: 28px !important;
-  margin-top: 50px;
-}
-
-#aweber p{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.texto{
-  background-color: #4CAF50;
-  width: 100%;
+.row{
   margin-bottom: 0;
-  margin-top: 80px;
 }
 
-.cajita{
-  margin-bottom: 50px;
+.header{
+  padding: 15px 0;
 }
 
-#frescopack1 > div.row.valign-wrapper.cajita > div.col.xl8.right{
-  padding-right: 0;
+.awebo{
+  background-color: red;
 
 }
 
-@media only screen and (min-width: 993px){
-.container {
-    width: 95% !important;
-}
+.container{
+  width: 85%
 }
 
 @media (max-width: 1550px) {
@@ -121,64 +53,32 @@ td{
 
 }
 
-
 @media (max-width: 1200px) {
-.texto h2{
-  margin: 15px auto;
+
+  .container{
+    width: 90%
+  }
 }
 
-}
 
 @media (max-width: 992px) {
-
-  .valign-wrapper{
-    display: inherit;
+  .container{
+    width: 90%;
   }
 
   .awebo{
-      margin-top: 50px;
+    margin-top: 50px;
   }
 
-  .caja{
-    width: auto;
-  }
-
-  .cabeza h4{
-    font-size: 25px;
-  }
-
-  .cabeza h1{
-    font-size: 55px;
-  }
-
-  .texto h2{
-    margin: 12px auto;
-    font-size: 38px;
-  }
 }
 
 @media (max-width: 700px) {
-  .texto h2{
-    margin: 12px auto;
-    font-size: 35px;
-  }
-
 
 }
 
 
 @media (max-width: 600px) {
-  .cabeza h4{
-    font-size: 20px;
-  }
 
-  .cabeza h1{
-    font-size: 50px;
-  }
-
-  .caja{
-    margin-bottom: 50px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -190,7 +90,6 @@ td{
 }
 
 @media (max-width: 300px) {}
-
 
 
   #af-form-991473539 .af-body .af-textWrap, #af-form-991473539 .af-body .af-selectWrap{width:98%;display:block;float:none;}
