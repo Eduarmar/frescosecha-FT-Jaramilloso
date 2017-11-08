@@ -19,6 +19,21 @@ padding-left: 40px !important;
 padding-right: 40px !important;
 }
 
+.lista{
+  font-family: 'Lobster', cursive;
+
+}
+
+#cuerpo h2{
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+table, li{
+  font-family: HastaGrotesk;
+  font-weight: bolder;
+}
+
 .pequeno{
   padding: 40px 0;
 }
@@ -47,12 +62,12 @@ td{
 
 
 .striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #93d130;
+   background-color: #c3fc92;
    color: #000;
 }
 
 tbody{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media (max-width: 1550px) {
